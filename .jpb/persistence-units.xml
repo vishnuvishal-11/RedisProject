@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="UserRequestRepository">
+        <packages>
+          <package value="Redis" />
+          <package value="Repository" />
+          <package value="ipServices" />
+          <package value="com" />
+          <package value="controller" />
+          <package value="security" />
+          <package value="Service" />
+          <package value="ServiceImpl" />
+          <package value="CustomEndpoint" />
+          <package value="" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit name="jb">
+        <packages>
+          <package value="Redis" />
+          <package value="Repository" />
+          <package value="" />
+          <package value="" />
+        </packages>
+        <entities>
+          <entity value="com.example.RedisProject.model.UserRequest" />
+          <entity value="org.springframework.data.jpa.domain.AbstractPersistable" />
+          <entity value="org.springframework.data.jpa.domain.AbstractAuditable" />
+        </entities>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="3e5cbc66-03d8-4fb9-a94c-1893ed454e23" name="docker-spring" url="jdbc:h2:file:~/h2/RedisProject" driverClass="org.h2.Driver" />
+    </data-sources>
+    <data-source-infos>
+      <data-source-info id="3e5cbc66-03d8-4fb9-a94c-1893ed454e23" persistence-unit-name="Default" />
+      <data-source-info id="3e5cbc66-03d8-4fb9-a94c-1893ed454e23" persistence-unit-name="UserRequestRepository" />
+      <data-source-info id="3e5cbc66-03d8-4fb9-a94c-1893ed454e23" persistence-unit-name="jb" />
+    </data-source-infos>
+  </component>
+</project>
